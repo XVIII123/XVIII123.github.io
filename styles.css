@@ -1,0 +1,129 @@
+.contain{
+min-height: 750px;
+
+}
+
+.header{
+	font-family: 'Palanquin', sans-serif;
+	 position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+	font-size: 180%;
+	text-align: center;
+	color: black;
+	background-color: white;
+
+}
+
+.card {
+	margin-left: 2%;
+	margin-right:2%;
+    box-shadow 4px 4px 4px 4px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+	padding-top: 1%;
+    padding: 16px 16px;
+}
+}
+#captionthing{
+	text-align: center;
+	color: #D3D3D3;
+	font-size: 125%;
+
+
+}
+.footer{
+
+    vertical-align: bottom;
+min-height: 200px;
+background-color:#A9A9A9
+
+
+}
+.main{
+	  margin-top: 30px;
+}
+.holding{
+ z-index: 1;
+  top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+position: fixed;
+background-color: black;
+}
+.copyright{
+	padding: 2%;
+color: white;
+float: right;
+}.topnav {
+	position: static;
+	padding-left: 5%;
+	padding-right: 5%;
+  overflow: hidden;
+  background-color: white;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: left;
+    display: block;
+  }
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #A9A9A9
+;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
